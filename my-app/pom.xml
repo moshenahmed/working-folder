@@ -4,7 +4,7 @@
   <groupId>com.mycompany.app</groupId>
   <artifactId>my-app</artifactId>
   <packaging>jar</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.1-SNAPSHOT</version>
   <name>my-app</name>
   <url>http://maven.apache.org</url>
 
@@ -20,7 +20,7 @@
             <manifest>
               <addClasspath>true</addClasspath>
               <classpathPrefix>lib/</classpathPrefix>
-              <mainClass>com.mycompany.app.App</mainClass>
+              <mainClass>com.mycompany.app.Reverter</mainClass>
             </manifest>
           </archive>
         </configuration>
