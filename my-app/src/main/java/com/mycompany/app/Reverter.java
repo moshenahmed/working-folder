@@ -1,12 +1,17 @@
+
 public class Reverter {
 
- String string;
+public static void main( String[] args )
+{
 
-  void Revert() {
+ String text;
 
-    String reverse = new StringBuffer(string).reverse().toString();
-      System.out.println(reverse);
+ void Revert()( String[] args ) {
+
+    String reverse = new StringBuffer(text).reverse().toString();
+      return reverse;
        }
 
 
+       }
        }
