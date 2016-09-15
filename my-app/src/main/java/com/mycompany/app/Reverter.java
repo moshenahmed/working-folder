@@ -1,17 +1,11 @@
+package com.mycompany.app;
 
-public class Reverter {
+public class Reverter { 
 
-public static void main( String[] args )
-{
+	String revert(String input) {
 
- String text;
+		String reverted = new StringBuffer(input).reverse().toString();
+		return reverted;
+	}
 
- void Revert()( String[] args ) {
-
-    String reverse = new StringBuffer(text).reverse().toString();
-      return reverse;
-       }
-
-
-       }
-       }
+}
